@@ -1,4 +1,4 @@
-<h1>Snake Game (Python OOP)</h1>
+<h1>Snake Game (Python)</h1>
 
 <p>
   This project is a classic <strong>Snake Game</strong> implemented in Python using the built-in 
