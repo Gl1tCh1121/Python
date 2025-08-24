@@ -60,7 +60,5 @@ snake-game-oop/
 <h2>🤝 Contributing</h2>
 <p>
   Feel free to <strong>fork</strong> this project and play around with it! <br>
-  Suggestions, improvements, or feature ideas are always welcome — just open an 
-  <a href="https://github.com/your-username/snake-game-oop/issues">issue</a> or create a 
-  <a href="https://github.com/your-username/snake-game-oop/pulls">pull request</a>. 🙌
+  Suggestions, improvements, or feature ideas are always welcome. 🙌
 </p>
