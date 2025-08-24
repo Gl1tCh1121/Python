@@ -1,7 +1,3 @@
-
-        
-
-
 with open("./Mail Merge Project Start/Input/Letters/starting_letter.txt", mode="r") as data:
     text = data.read()
     print(text)
