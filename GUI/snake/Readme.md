@@ -57,3 +57,10 @@ snake-game-oop/
   <li>Python 3.x</li>
   <li>Built-in <code>turtle</code> module (no external dependencies)</li>
 </ul>
+<h2>🤝 Contributing</h2>
+<p>
+  Feel free to <strong>fork</strong> this project and play around with it! <br>
+  Suggestions, improvements, or feature ideas are always welcome — just open an 
+  <a href="https://github.com/your-username/snake-game-oop/issues">issue</a> or create a 
+  <a href="https://github.com/your-username/snake-game-oop/pulls">pull request</a>. 🙌
+</p>
