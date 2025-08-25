@@ -25,14 +25,7 @@ Here are some of the types of projects you’ll find here:
 
 *(The list will grow as I continue learning and adding more projects!)*
 
----
 
-##  About Me
-Hi! I’m **Giorgi Bolotashvili** –  
-- Computer Science student @ Caucasus University  
-- Skills: Python, C#, .NET, JavaScript, SQL, C++, HTML, CSS  
-- Passionate about software development, problem solving, and building creative projects.  
-- Currently learning advanced Python and exploring AI/ML.  
 
 ---
 
@@ -44,13 +37,26 @@ Hi! I’m **Giorgi Bolotashvili** –
 
 3. Run the Python file
 
+
 ---
 
 ## Contributing
 This repository is mainly for personal learning and practice.
 But if you’d like to suggest improvements, feel free to open an issue or create a pull request!
 
+
 ---
 
 ## Support
 If you like my work, consider giving this repo a star ⭐ – it motivates me to keep building more projects!
+
+
+---
+
+##  About Me
+Hi! I’m **Giorgi Bolotashvili** –  
+- Computer Science student @ Caucasus University  
+- Skills: Python, C#, .NET, JavaScript, SQL, C++, HTML, CSS  
+- Passionate about software development, problem solving, and building creative projects.  
+- Currently learning advanced Python and exploring AI/ML.  
+
