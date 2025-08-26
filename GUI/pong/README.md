@@ -12,7 +12,7 @@
 <h2>Features</h2>
 <ul>
   <li>Object-oriented design with separate <strong>Paddle</strong>, <strong>Ball</strong>, and <strong>Scoreboard</strong> classes</li>
-  <li>Two-player gameplay 🎮</li>
+  <li>Two-player gameplay </li>
   <li>Ball collision detection with <strong>walls and paddles</strong></li>
   <li>Score tracking with automatic ball reset after a point</li>
   <li>Smooth animation loop using <code>turtle.Screen</code> updates</li>
@@ -46,8 +46,8 @@ pong-game-oop/
 <h2>Controls</h2>
 <ul>
   <h2>Player 1</h2>
-  <li>⬆️ Arrow Up – Move Right Paddle Up</li>
-  <li>⬇️ Arrow Down – Move Right Paddle Down</li>
+  <li>Arrow Up – Move Right Paddle Up</li>
+  <li>Arrow Down – Move Right Paddle Down</li>
   <h2>Player 2</h2>
   <li>W – Move Left Paddle Up</li>
   <li>S – Move Left Paddle Down</li>
@@ -63,7 +63,7 @@ pong-game-oop/
 
 <hr>
 
-<h2>🤝 Contributing</h2>
+<h2> Contributing</h2>
 <p>
   Feel free to <strong>fork</strong> this project and experiment with it! <br>
   Suggestions, improvements, or feature ideas are always welcome. 🙌
