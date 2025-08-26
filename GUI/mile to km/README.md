@@ -1,4 +1,4 @@
-<h1>📏 Mile to Kilometer Converter (Python Tkinter)</h1>
+<h1> Mile to Kilometer Converter (Python Tkinter)</h1>
 
 <p>
   This project is a simple <strong>Mile to Kilometer Converter</strong> built in Python using the 
@@ -50,3 +50,9 @@ mile-to-km/
   <li>Python 3.x</li>
   <li>Built-in <code>Tkinter</code> module (comes with Python)</li>
 </ul>
+
+<h2> Contributing</h2>
+<p>
+  Feel free to <strong>fork</strong> this project and experiment with it! <br>
+  Suggestions, improvements, or feature ideas are always welcome. 🙌
+</p>
