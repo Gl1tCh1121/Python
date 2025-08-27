@@ -57,7 +57,7 @@ cd password-manager
 
 <hr>
 
-<h2>🛠 Requirements</h2>
+<h2> Requirements</h2>
 <ul>
   <li>Python 3.x</li>
   <li>Built-in <code>Tkinter</code> module</li>
