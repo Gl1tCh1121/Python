@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 import random
+import json
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
 def generate_password():
@@ -23,26 +24,60 @@ def generate_password():
     password = "".join(password_list)
     password_entry.insert(0, password)
 
+
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 
 def save():
     website = website_entry.get()
     email = email_entry.get()
     password = password_entry.get()
+    new_data = {
+        website:{
+            "email": email,
+            "password": password,
+    }}
 
     is_ok = messagebox.askokcancel(title=website, message=f"There are details entered: \nEmail: {email}"
-                                                  f"\npassword: {email} \nIs it okay to save?" )
+                                                  f"\npassword: {password} \nIs it okay to save?" )
     if is_ok :
         if len(email) > 0 and len(password) > 0 and len(website) > 0:
-            with open ("data.txt","a") as data_file:
-                data_file.write(f"{website} | {email} | {password}\n")
+            try:
+                with open ("data.json","r") as data_file:
+                    data = json.load(data_file)
+                    
+            except FileNotFoundError:
+                with open ("data.json","w") as data_file:
+                    json.dump(new_data, data_file, indent=4)
+            else:
+                data.update(new_data)
+                
+                with open ("data.json","w") as data_file:
+                    json.dump(new_data, data_file, indent=4)   
+            finally:
                 website_entry.delete(0, END)
                 email_entry.delete(0, END)
                 password_entry.delete(0, END)
         else:
             messagebox.askokcancel(title="error", message="Please fill all blanks")
 
-# ---------------------------- UI SETUP ------------------------------- #
+
+# ---------------------------- Search ------------------------------- #
+
+def search():
+    website = website_entry.get()
+    try:
+        with open ("data.json") as data_file:
+            data = json.load(data_file)
+        email = data[website]["email"]
+        password = data[website]["password"]          
+    except FileNotFoundError:
+        print("There is no data file, please create one before searching")
+    except KeyError:
+        print(f"There is nothing as {website}")
+    else:       
+        messagebox.askokcancel(title=website, message=f"\nEmail: {email}" f"\npassword: {password}" )
+
+# ---------------------------- UI SETUP ------------------------- ------ #
   
 window = Tk()
 window.title("Password Manager")
@@ -65,8 +100,8 @@ password_label.grid(row=3, column=0)
 
 
 # Entries
-website_entry = Entry(width = 45)
-website_entry.grid(row=1, column=1, columnspan=2)
+website_entry = Entry(width = 26)
+website_entry.grid(row=1, column=1)
 website_entry.focus()
 
 email_entry = Entry(width = 45)
@@ -77,11 +112,15 @@ password_entry = Entry(width = 26)
 password_entry.grid(row=3, column=1)
 
 # Buttons
+search_button = Button(text="Search", command=search, width = 14)
+search_button.grid(row = 1, column=2)
+
 generate_password_button = Button(text="Generate Password", command=generate_password)
 generate_password_button.grid(row = 3, column=2)
 
 add_button = Button(text="Add", width = 38, command=save) 
 add_button.grid(row=4, column=1, columnspan=2)
+
 
 window.mainloop()
 
