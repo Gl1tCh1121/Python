@@ -12,8 +12,8 @@
 <h2>Features</h2>
 <ul>
   <li>Object-oriented design with separate <strong>Player</strong>, <strong>CarManager</strong>, and <strong>Scoreboard</strong> classes</li>
-  <li>Player movement and level progression 🐢</li>
-  <li>Cars that move across the screen with increasing speed 🚗</li>
+  <li>Player movement and level progression </li>
+  <li>Cars that move across the screen with increasing speed </li>
   <li>Collision detection between the player and cars</li>
   <li>Score tracking and game-over display</li>
 </ul>
@@ -45,7 +45,7 @@ turtle-crossing-oop/
 
 <h2>Controls</h2>
 <ul>
-  <li>⬆️ Arrow Up – Move the turtle forward</li>
+  <li> Arrow Up – Move the turtle forward</li>
 </ul>
 
 <hr>
@@ -58,7 +58,7 @@ turtle-crossing-oop/
 
 <hr>
 
-<h2>🤝 Contributing</h2>
+<h2>Contributing</h2>
 <p>
   Feel free to <strong>fork</strong> this project and experiment with it! <br>
   Suggestions, improvements, or feature ideas are always welcome. 🙌
