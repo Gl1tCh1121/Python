@@ -19,6 +19,20 @@
 
 <hr>
 
+<h2> Demo</h2>
+
+<p>
+  Below is a quick demonstration of the Password Manager in action:
+</p>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/Z6uKnF69V9vGStbf9a/giphy.gif" 
+       alt="Password Manager Demo" 
+       width="600">
+</p>
+
+<hr>
+
 <h2>Project Structure</h2>
 <pre>
 snake-game-oop/
