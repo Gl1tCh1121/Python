@@ -48,7 +48,7 @@ quiz-game/
 
 <hr>
 
-<h2>🛠 Requirements</h2>
+<h2>Requirements</h2>
 <ul>
   <li>Python 3.x</li>
   <li>Basic understanding of terminal/console input</li>
