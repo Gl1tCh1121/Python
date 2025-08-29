@@ -42,7 +42,7 @@ Hi! I’m **Giorgi Bolotashvili** –
 
 2. Navigate to the project folder
 
-3. Run the Python file
+3. Run the Python file(main.py)
 
 ---
 
