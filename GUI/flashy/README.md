@@ -13,7 +13,7 @@
 <h2>Features</h2>
 <ul>
   <li>Displays German words and flips to show the English translation after 3 seconds</li>
-  <li>Interactive buttons for marking words as <strong>known</strong> ✅ or <strong>unknown</strong> ❌</li>
+  <li>Interactive buttons for marking words as <strong>known</strong> or <strong>unknown</strong> </li>
   <li>Progress is saved in <code>words_to_learn.csv</code> so you continue where you left off</li>
   <li>Uses <strong>Pandas</strong> for data handling and <strong>Tkinter Canvas</strong> for visuals</li>
 </ul>
